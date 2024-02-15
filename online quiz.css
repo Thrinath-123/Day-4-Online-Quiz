@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+.submit-btn{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    display: block;
+    font-size: 16px;
+}
+.question{
+    margin-bottom: 20px;
+}
+.options-input[type="radio"]{
+   margin-right: 10px;
+}
+.submit-btn:hover{
+    background-color: blue;
+}
+body{
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 100vh;
+}
